@@ -1,5 +1,8 @@
-# projectName
+# command-wrap-notify
 /build
+/config/application.yaml
 
 #IntelliJ
 /.idea
+
+
