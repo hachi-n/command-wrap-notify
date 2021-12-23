@@ -13,9 +13,10 @@ func main() {
 		Usage: "my project template",
 		Flags: []cli.Flag{
 			&cli.StringFlag{
-				Name:  "command",
-				Value: "",
-				Usage: "command fullpath.",
+				Name:     "command",
+				Value:    "",
+				Usage:    "command fullpath.",
+				Required: true,
 			},
 		},
 		Action: func(context *cli.Context) error {
