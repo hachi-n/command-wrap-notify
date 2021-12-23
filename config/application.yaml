@@ -1,0 +1,4 @@
+mention: "!channel"
+endpoint: ""
+username: "slack-bot"
+channel: "#general"
